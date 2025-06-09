@@ -1,0 +1,26 @@
+
+.header {
+  display: flex;
+  width: 1920px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.reestrIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.raqamliHukumatningAxborot {
+  display: flex;
+  /*max-width: var(--width-400, 400px);*/
+  padding: 0px 37.39px 0px 16px;
+  align-items: flex-start;
+}
