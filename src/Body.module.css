@@ -306,6 +306,7 @@
 }
 
 yangi-loyihalar a {
+  outline: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -316,6 +317,9 @@ yangi-loyihalar a {
 }
 
 .barcha-loyhalar {
+  outline: none;
+  border: none;
+  cursor: pointer;
   display: inline-flex;
   padding: 8px 12px;
   align-items: center;
@@ -329,6 +333,7 @@ yangi-loyihalar a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  outline: none;
 }
 
 .barcha-loyhalar:hover {

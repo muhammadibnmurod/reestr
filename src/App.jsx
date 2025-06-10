@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 const App = () => {
     return (
-        <div>
+        <div style={{ background: '#F2F7FB' }}>
             <Header />
             <Body />
             <Footer />
