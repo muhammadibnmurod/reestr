@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 
 .header {
   display: flex;
-  width: 1920px;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
+  background: #F2F7FB;
 }
 
 .link {
+  display: flex;
   display: inline-flex;
   align-items: center;
   box-sizing: border-box;
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
 .reestrIcon {
@@ -23,4 +30,103 @@
   /*max-width: var(--width-400, 400px);*/
   padding: 0px 37.39px 0px 16px;
   align-items: flex-start;
+  color: #6A6DCD;
+  font-family: Inter-Bold;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.035px;
+  text-transform: uppercase;
 }
+.container {
+  display: flex;
+}
+
+.list {
+  gap: 50px;
+  margin-left: 200px;
+  display: inline-flex;
+  height: 96px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.loyihalar {
+  color: #222;
+  font-family: Inter-regular;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: none/* 100% */
+}
+
+.loyihalar:hover {
+  color: #25b4a2;
+  transition: color 0.1s;
+}
+
+.listItem {
+  display: flex;
+  margin-left: 90px;
+  margin-top: 38px;
+}
+
+.listItem1 {
+  position: relative;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 50px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.oz {
+  position: relative;
+  font-size: 15px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #222;
+}
+
+.background {
+  display: flex;
+  padding: 0px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 12.67px;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 8px;
+  background:#6A6DCD;
+  padding: 10px ;
+}
+
+.background div {
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

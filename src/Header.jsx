@@ -17,8 +17,9 @@ const Header = () => {
                 <div className={styles.heading2}>
                     <div className={styles.raqamliHukumatningAxborotContainer}>
                         <p className={styles.raqamliHukumatningAxborot}>
-                            Raqamli hukumatning axborot tizimlari varesurslari
-                            va yagona reyestori
+                            Raqamli hukumatning axborot tizimlari va
+                            <br />
+                            yagona reyestori
                         </p>
                     </div>
                 </div>
@@ -54,12 +55,20 @@ const Header = () => {
             </div>
             <div className={styles.listItem}>
                 <div className={styles.oz}>O'z </div>
-                <img className={styles.svgIcon} alt="" src="SVG.svg" />
+                <img
+                    className={styles.svgIcon}
+                    alt=""
+                    src="/assets/img/SVG.svg"
+                />
             </div>
             <div className={styles.listItem1}>
                 <div className={styles.background}>
                     <div className={styles.oz}>Shaxsiy sahifa</div>
-                    <img className={styles.svgIcon1} alt="" src="SVG.svg" />
+                    <img
+                        className={styles.svgIcon1}
+                        alt=""
+                        src="/assets/img/person.svg"
+                    />
                 </div>
             </div>
         </div>
