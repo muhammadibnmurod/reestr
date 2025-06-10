@@ -16,11 +16,11 @@ const Header = () => {
                 />
                 <div className={styles.heading2}>
                     <div className={styles.raqamliHukumatningAxborotContainer}>
-                        <p className={styles.raqamliHukumatningAxborot}>
+                        <h2 className={styles.raqamliHukumatningAxborot}>
                             Raqamli hukumatning axborot tizimlari va
                             <br />
                             yagona reyestori
-                        </p>
+                        </h2>
                     </div>
                 </div>
             </div>

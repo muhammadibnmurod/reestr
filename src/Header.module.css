@@ -39,6 +39,10 @@
   letter-spacing: 0.035px;
   text-transform: uppercase;
 }
+
+.raqamliHukumatningAxborot h2 {
+
+}
 .container {
   display: flex;
 }

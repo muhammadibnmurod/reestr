@@ -119,6 +119,683 @@ const Body = () => {
                     </div>
                 </div>
             </div>
+            <h1 className={styles['yangi-h']}>Yangi kiritilgan loyiha</h1>
+            <div className={styles['yangi-bosh']}>
+                <div className={styles['yangi-loyiha']}>
+                    <div className={styles['yangi-in']}>
+                        <div className={styles['yang-in-1']}>
+                            <h3>Yagona sport platformasi</h3>
+                            <p>
+                                Sport vazirligi, viloyatlar va Toshkent shahar
+                                sport boshqarmalari hamda sport-ta’lim
+                                muassasalarining rasmiy veb- <br />
+                                saytlarini, “Yagona darcha” tamoyili asosida,
+                                yagona sport platformasida yaratish orqali,
+                                aholi va yoshlarni sportga <br />
+                                keng jalb etish hamda sohada ochiqlik va
+                                shaffoflikni ta’minlash qaratilgan.
+                            </p>
+                        </div>
+                        <div className={styles['yangi-in-2']}>
+                            <p>
+                                <span className={styles['highlite']}>
+                                    Reg. №:
+                                </span>{' '}
+                                2434
+                            </p>
+                            <p>
+                                <span className={styles['highlite']}>
+                                    Sana:{' '}
+                                </span>{' '}
+                                 30.05.2025
+                            </p>
+                            <div className={styles['yangi-inline']}>
+                                <p>
+                                    <span className={styles['zero']}>0</span>
+                                </p>
+                                <p>
+                                    <span className={styles['qovus']}>(0)</span>
+                                </p>
+                                <div className={styles['yangi-stars']}>
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            <a className={styles['Yangi-pastki']}>
+                                Ўзбекистон Республикаси Ёшлар сиёсати ва спорт
+                                вазирлиги
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div className={styles['yangi-loyiha']}>
+                    <div className={styles['yangi-in']}>
+                        <div className={styles['yang-in-1']}>
+                            <h3>Yagona sport platformasi</h3>
+                            <p>
+                                Sport vazirligi, viloyatlar va Toshkent shahar
+                                sport boshqarmalari hamda sport-ta’lim
+                                muassasalarining rasmiy veb- <br />
+                                saytlarini, “Yagona darcha” tamoyili asosida,
+                                yagona sport platformasida yaratish orqali,
+                                aholi va yoshlarni sportga <br />
+                                keng jalb etish hamda sohada ochiqlik va
+                                shaffoflikni ta’minlash qaratilgan.
+                            </p>
+                        </div>
+                        <div className={styles['yangi-in-2']}>
+                            <p>
+                                <span className={styles['highlite']}>
+                                    Reg. №:
+                                </span>{' '}
+                                2430
+                            </p>
+                            <p>
+                                <span className={styles['highlite']}>
+                                    Sana:{' '}
+                                </span>{' '}
+                                26.05.2025
+                            </p>
+                            <div className={styles['yangi-inline']}>
+                                <p>
+                                    <span className={styles['zero']}>5</span>
+                                </p>
+                                <p>
+                                    <span className={styles['qovus']}>(1)</span>
+                                </p>
+                                <div className={styles['yangi-stars']}>
+                                    <img
+                                        src="/assets/img/stars1.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars1.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars1.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars1.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars1.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            <a className={styles['Yangi-pastki']}>
+                                Ўзбекистон Республикаси Ёшлар сиёсати ва спорт
+                                вазирлиги
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div className={styles['yangi-loyiha']}>
+                    <div className={styles['yangi-in']}>
+                        <div className={styles['yang-in-1']}>
+                            <h3>Yagona sport platformasi</h3>
+                            <p>
+                                Sport vazirligi, viloyatlar va Toshkent shahar
+                                sport boshqarmalari hamda sport-ta’lim
+                                muassasalarining rasmiy veb- <br />
+                                saytlarini, “Yagona darcha” tamoyili asosida,
+                                yagona sport platformasida yaratish orqali,
+                                aholi va yoshlarni sportga <br />
+                                keng jalb etish hamda sohada ochiqlik va
+                                shaffoflikni ta’minlash qaratilgan.
+                            </p>
+                        </div>
+                        <div className={styles['yangi-in-2']}>
+                            <p>
+                                <span className={styles['highlite']}>
+                                    Reg. №:
+                                </span>{' '}
+                                2426
+                            </p>
+                            <p>
+                                <span className={styles['highlite']}>
+                                    Sana:{' '}
+                                </span>{' '}
+                                21.05.2025
+                            </p>
+                            <div className={styles['yangi-inline']}>
+                                <p>
+                                    <span className={styles['zero']}>0</span>
+                                </p>
+                                <p>
+                                    <span className={styles['qovus']}>(0)</span>
+                                </p>
+                                <div className={styles['yangi-stars']}>
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            <a className={styles['Yangi-pastki']}>
+                                Ўзбекистон Республикаси Ёшлар сиёсати ва спорт
+                                вазирлиги
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div className={styles['yangi-loyiha']}>
+                    <div className={styles['yangi-in']}>
+                        <div className={styles['yang-in-1']}>
+                            <h3>Yagona sport platformasi</h3>
+                            <p>
+                                Sport vazirligi, viloyatlar va Toshkent shahar
+                                sport boshqarmalari hamda sport-ta’lim
+                                muassasalarining rasmiy veb- <br />
+                                saytlarini, “Yagona darcha” tamoyili asosida,
+                                yagona sport platformasida yaratish orqali,
+                                aholi va yoshlarni sportga <br />
+                                keng jalb etish hamda sohada ochiqlik va
+                                shaffoflikni ta’minlash qaratilgan.
+                            </p>
+                        </div>
+                        <div className={styles['yangi-in-2']}>
+                            <p>
+                                <span className={styles['highlite']}>
+                                    Reg. №:
+                                </span>{' '}
+                                2423
+                            </p>
+                            <p>
+                                <span className={styles['highlite']}>
+                                    Sana:{' '}
+                                </span>{' '}
+                                30.05.2025
+                            </p>
+                            <div className={styles['yangi-inline']}>
+                                <p>
+                                    <span className={styles['zero']}>0</span>
+                                </p>
+                                <p>
+                                    <span className={styles['qovus']}>(0)</span>
+                                </p>
+                                <div className={styles['yangi-stars']}>
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            <a className={styles['Yangi-pastki']}>
+                                Ўзбекистон Республикаси Ёшлар сиёсати ва спорт
+                                вазирлиги
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div className={styles['yangi-loyiha']}>
+                    <div className={styles['yangi-in']}>
+                        <div className={styles['yang-in-1']}>
+                            <h3>Yagona sport platformasi</h3>
+                            <p>
+                                Sport vazirligi, viloyatlar va Toshkent shahar
+                                sport boshqarmalari hamda sport-ta’lim
+                                muassasalarining rasmiy veb- <br />
+                                saytlarini, “Yagona darcha” tamoyili asosida,
+                                yagona sport platformasida yaratish orqali,
+                                aholi va yoshlarni sportga <br />
+                                keng jalb etish hamda sohada ochiqlik va
+                                shaffoflikni ta’minlash qaratilgan.
+                            </p>
+                        </div>
+                        <div className={styles['yangi-in-2']}>
+                            <p>
+                                <span className={styles['highlite']}>
+                                    Reg. №:
+                                </span>{' '}
+                                2419
+                            </p>
+                            <p>
+                                <span className={styles['highlite']}>
+                                    Sana:{' '}
+                                </span>{' '}
+                                26.05.2025
+                            </p>
+                            <div className={styles['yangi-inline']}>
+                                <p>
+                                    <span className={styles['zero']}>0</span>
+                                </p>
+                                <p>
+                                    <span className={styles['qovus']}>(0)</span>
+                                </p>
+                                <div className={styles['yangi-stars']}>
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            <a className={styles['Yangi-pastki']}>
+                                Ўзбекистон Республикаси Ёшлар сиёсати ва спорт
+                                вазирлиги
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div className={styles['yangi-loyiha']}>
+                    <div className={styles['yangi-in']}>
+                        <div className={styles['yang-in-1']}>
+                            <h3>Yagona sport platformasi</h3>
+                            <p>
+                                Sport vazirligi, viloyatlar va Toshkent shahar
+                                sport boshqarmalari hamda sport-ta’lim
+                                muassasalarining rasmiy veb- <br />
+                                saytlarini, “Yagona darcha” tamoyili asosida,
+                                yagona sport platformasida yaratish orqali,
+                                aholi va yoshlarni sportga <br />
+                                keng jalb etish hamda sohada ochiqlik va
+                                shaffoflikni ta’minlash qaratilgan.
+                            </p>
+                        </div>
+                        <div className={styles['yangi-in-2']}>
+                            <p>
+                                <span className={styles['highlite']}>
+                                    Reg. №:
+                                </span>{' '}
+                                2412
+                            </p>
+                            <p>
+                                <span className={styles['highlite']}>
+                                    Sana:{' '}
+                                </span>{' '}
+                                28.04.2025
+                            </p>
+                            <div className={styles['yangi-inline']}>
+                                <p>
+                                    <span className={styles['zero']}>2</span>
+                                </p>
+                                <p>
+                                    <span className={styles['qovus']}>(4)</span>
+                                </p>
+                                <div className={styles['yangi-stars']}>
+                                    <img
+                                        src="/assets/img/stars1.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars1.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars1.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            <a className={styles['Yangi-pastki']}>
+                                Ўзбекистон Республикаси Ёшлар сиёсати ва спорт
+                                вазирлиги
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div className={styles['yangi-loyiha']}>
+                    <div className={styles['yangi-in']}>
+                        <div className={styles['yang-in-1']}>
+                            <h3>Yagona sport platformasi</h3>
+                            <p>
+                                Sport vazirligi, viloyatlar va Toshkent shahar
+                                sport boshqarmalari hamda sport-ta’lim
+                                muassasalarining rasmiy veb- <br />
+                                saytlarini, “Yagona darcha” tamoyili asosida,
+                                yagona sport platformasida yaratish orqali,
+                                aholi va yoshlarni sportga <br />
+                                keng jalb etish hamda sohada ochiqlik va
+                                shaffoflikni ta’minlash qaratilgan.
+                            </p>
+                        </div>
+                        <div className={styles['yangi-in-2']}>
+                            <p>
+                                <span className={styles['highlite']}>
+                                    Reg. №:
+                                </span>{' '}
+                                2434
+                            </p>
+                            <p>
+                                <span className={styles['highlite']}>
+                                    Sana:{' '}
+                                </span>{' '}
+                                30.05.2025
+                            </p>
+                            <div className={styles['yangi-inline']}>
+                                <p>
+                                    <span className={styles['zero']}>0</span>
+                                </p>
+                                <p>
+                                    <span className={styles['qovus']}>(0)</span>
+                                </p>
+                                <div className={styles['yangi-stars']}>
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            <a className={styles['Yangi-pastki']}>
+                                Ўзбекистон Республикаси Ёшлар сиёсати ва спорт
+                                вазирлиги
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div className={styles['yangi-loyiha']}>
+                    <div className={styles['yangi-in']}>
+                        <div className={styles['yang-in-1']}>
+                            <h3>Yagona sport platformasi</h3>
+                            <p>
+                                Sport vazirligi, viloyatlar va Toshkent shahar
+                                sport boshqarmalari hamda sport-ta’lim
+                                muassasalarining rasmiy veb- <br />
+                                saytlarini, “Yagona darcha” tamoyili asosida,
+                                yagona sport platformasida yaratish orqali,
+                                aholi va yoshlarni sportga <br />
+                                keng jalb etish hamda sohada ochiqlik va
+                                shaffoflikni ta’minlash qaratilgan.
+                            </p>
+                        </div>
+                        <div className={styles['yangi-in-2']}>
+                            <p>
+                                <span className={styles['highlite']}>
+                                    Reg. №:
+                                </span>{' '}
+                                2434
+                            </p>
+                            <p>
+                                <span className={styles['highlite']}>
+                                    Sana:{' '}
+                                </span>{' '}
+                                30.05.2025
+                            </p>
+                            <div className={styles['yangi-inline']}>
+                                <p>
+                                    <span className={styles['zero']}>0</span>
+                                </p>
+                                <p>
+                                    <span className={styles['qovus']}>(0)</span>
+                                </p>
+                                <div className={styles['yangi-stars']}>
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            <a className={styles['Yangi-pastki']}>
+                                Ўзбекистон Республикаси Ёшлар сиёсати ва спорт
+                                вазирлиги
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div className={styles['yangi-loyiha']}>
+                    <div className={styles['yangi-in']}>
+                        <div className={styles['yang-in-1']}>
+                            <h3>Yagona sport platformasi</h3>
+                            <p>
+                                Sport vazirligi, viloyatlar va Toshkent shahar
+                                sport boshqarmalari hamda sport-ta’lim
+                                muassasalarining rasmiy veb- <br />
+                                saytlarini, “Yagona darcha” tamoyili asosida,
+                                yagona sport platformasida yaratish orqali,
+                                aholi va yoshlarni sportga <br />
+                                keng jalb etish hamda sohada ochiqlik va
+                                shaffoflikni ta’minlash qaratilgan.
+                            </p>
+                        </div>
+                        <div className={styles['yangi-in-2']}>
+                            <p>
+                                <span className={styles['highlite']}>
+                                    Reg. №:
+                                </span>{' '}
+                                2434
+                            </p>
+                            <p>
+                                <span className={styles['highlite']}>
+                                    Sana:{' '}
+                                </span>{' '}
+                                30.05.2025
+                            </p>
+                            <div className={styles['yangi-inline']}>
+                                <p>
+                                    <span className={styles['zero']}>0</span>
+                                </p>
+                                <p>
+                                    <span className={styles['qovus']}>(0)</span>
+                                </p>
+                                <div className={styles['yangi-stars']}>
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            <a className={styles['Yangi-pastki']}>
+                                Ўзбекистон Республикаси Ёшлар сиёсати ва спорт
+                                вазирлиги
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div className={styles['yangi-loyiha']}>
+                    <div className={styles['yangi-in']}>
+                        <div className={styles['yang-in-1']}>
+                            <h3>Yagona sport platformasi</h3>
+                            <p>
+                                Sport vazirligi, viloyatlar va Toshkent shahar
+                                sport boshqarmalari hamda sport-ta’lim
+                                muassasalarining rasmiy veb- <br />
+                                saytlarini, “Yagona darcha” tamoyili asosida,
+                                yagona sport platformasida yaratish orqali,
+                                aholi va yoshlarni sportga <br />
+                                keng jalb etish hamda sohada ochiqlik va
+                                shaffoflikni ta’minlash qaratilgan.
+                            </p>
+                        </div>
+                        <div className={styles['yangi-in-2']}>
+                            <p>
+                                <span className={styles['highlite']}>
+                                    Reg. №:
+                                </span>{' '}
+                                2434
+                            </p>
+                            <p>
+                                <span className={styles['highlite']}>
+                                    Sana:{' '}
+                                </span>{' '}
+                                30.05.2025
+                            </p>
+                            <div className={styles['yangi-inline']}>
+                                <p>
+                                    <span className={styles['zero']}>0</span>
+                                </p>
+                                <p>
+                                    <span className={styles['qovus']}>(0)</span>
+                                </p>
+                                <div className={styles['yangi-stars']}>
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                    <img
+                                        src="/assets/img/stars.svg"
+                                        alt="Yangi Stars"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            <a className={styles['Yangi-pastki']}>
+                                Ўзбекистон Республикаси Ёшлар сиёсати ва спорт
+                                вазирлиги
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button className={styles['barcha-loyhalar']}>
+                Barcha loyihalar
+                <img src="/assets/img/SVG/SVG.svg" alt="Yangi-Loyihalar" />
+            </button>
         </div>
     )
 }

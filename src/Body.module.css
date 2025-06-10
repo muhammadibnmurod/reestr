@@ -27,6 +27,7 @@
 }
 
 .main-text1 {
+  font-weight: bold;
   color: #fff;
   text-align: center;
   font-family: Inter;
@@ -195,6 +196,146 @@
   background: #3CBDC6;
   transition: color 0.1s;
 }
+
+.yangi-in {
+  width: 833px;
+  height: 250px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: rgba(0, 0, 0, 0.10);
+  background: #FFF;
+}
+
+.yangi-h {
+  margin-bottom: -56px;
+  display: flex;
+  height: 40px;
+  flex-direction: column;
+  justify-content: center;
+
+ }
+
+.yang-in-1 {
+  display: flex;
+  width: 783px;
+  padding-bottom: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 44px;
+}
+.yang-in-1 h3:hover {
+  color: deepskyblue;
+  transition: color 0.2s;
+}
+
+.yang-in-1 p {
+  color: rgba(34, 34, 34, 0.60);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  margin-top: 1px;
+}
+
+.yangi-in-2 {
+  display: flex;
+  gap: 124px;
+  /*margin-left: 44px;*/
+  /*display: flex;*/
+  /*width: 93.27px;*/
+  /*height: 20px;*/
+  /*flex-direction: column;*/
+  justify-content: center;
+  padding-right: 112px;
+}
+
+.yangi-in-2 p {
+  font-weight: bold;
+}
+
+.yangi-inline {
+  display: flex;
+  gap: 8px;
+  /*display: flex;*/
+  /*width: 93.27px;*/
+  /*height: 20px;*/
+  /*flex-direction: column;*/
+  /*justify-content: center;*/
+  margin-left: 25px;
+}
+
+.yangi-stars {
+  display: inline-flex;
+  padding-bottom: 3px;
+  align-items: center;
+}
+
+.highlite {
+  color: #6B7280;
+}
+
+.zero {
+  font-weight: bold;
+}
+
+.qovus {
+  color: #6B7280;
+}
+
+.Yangi-pastki {
+  color: #222;
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  margin-left: 50px;
+}
+
+.Yangi-pastki:hover {
+  color: #3CBDC6;
+}
+
+.yangi-bosh {
+  display: flex;
+  margin-left: 70px;
+  gap: 25px;
+  flex-wrap: wrap;
+
+}
+
+yangi-loyihalar a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-style: normal;
+  line-height: 28px;
+}
+
+.barcha-loyhalar {
+  display: inline-flex;
+  padding: 8px 12px;
+  align-items: center;
+  gap: 0px;
+  border-radius: 8px;
+  background: #F2F7FB;
+  color: #374151;
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 13.3px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.barcha-loyhalar:hover {
+  background: #3CBDC6;
+}
+
+
 
 
 
