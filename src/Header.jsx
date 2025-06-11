@@ -63,7 +63,7 @@ const Header = () => {
             </div>
             <div className={styles.listItem1}>
                 <div className={styles.background}>
-                    <div className={styles.oz}>Shaxsiy sahifa</div>
+                    <div className={styles.oz1}>Shaxsiy sahifa</div>
                     <img
                         className={styles.svgIcon1}
                         alt=""

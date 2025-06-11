@@ -6,8 +6,8 @@ const Body = () => {
         <div className={styles.Main}>
             <div className={styles['main-background']}>
                 <div className={styles['main-text1']}>
-                    Аxborot tizimlari va resurslari <br />
-                    Yagona reyestri
+                    <h3> Аxborot tizimlari va resurslari</h3>
+                    <h2>Yagona reyestri</h2>
                 </div>
                 <div className={styles['main-background-form']}>
                     <input
@@ -19,7 +19,7 @@ const Body = () => {
                 </div>
             </div>
             <div className={styles['milliy-standartlar']}>
-                <h1>Milliy Standartlar</h1>
+                <h2>Milliy Standartlar</h2>
                 <div className={styles['standartlar-pages']}>
                     <div className={styles['standartlar-1']}>
                         <div className={styles['page-i']}>
@@ -119,7 +119,7 @@ const Body = () => {
                     </div>
                 </div>
             </div>
-            <h1 className={styles['yangi-h']}>Yangi kiritilgan loyiha</h1>
+            <h2 className={styles['yangi-h']}>Yangi kiritilgan loyiha</h2>
             <div className={styles['yangi-bosh']}>
                 <div className={styles['yangi-loyiha']}>
                     <div className={styles['yangi-in']}>

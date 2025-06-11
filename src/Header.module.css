@@ -4,6 +4,7 @@
 
 
 .header {
+  height: 70px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -26,18 +27,15 @@
 }
 
 .raqamliHukumatningAxborot {
-  display: flex;
-  /*max-width: var(--width-400, 400px);*/
-  padding: 0px 37.39px 0px 16px;
-  align-items: flex-start;
-  color: #6A6DCD;
-  font-family: Inter-Bold;
+  font-family: "Noto Sans", sans-serif;
+  padding-left: 16px;
+  max-width: 400px;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0.035px;
+  line-height: 1.286;
+  letter-spacing: .0025em;
+  font-family: Inter-Bold;
   text-transform: uppercase;
+  color: #6A6DCD;
 }
 
 .raqamliHukumatningAxborot h2 {
@@ -49,9 +47,10 @@
 
 .list {
   gap: 50px;
-  margin-left: 200px;
+  margin-left: 540px;
   display: inline-flex;
   height: 96px;
+  gap: 67px;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
@@ -59,8 +58,8 @@
 
 .loyihalar {
   color: #222;
-  font-family: Inter-regular;
-  font-size: 18px;
+  font-family: "Inter-regular", sans-serif;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 16px;
@@ -92,6 +91,8 @@
   font-size: 15px;
   line-height: 15px;
   text-transform: uppercase;
+  font-family: "Inter-regular", sans-serif;
+
   color: #222;
 }
 
@@ -110,6 +111,15 @@
 
 .background div {
   color: #fff;
+}
+
+.oz1 {
+  position: relative;
+  font-size: 15px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #222;
+  font-weight: bold;
 }
 
 

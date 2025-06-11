@@ -46,6 +46,44 @@ const Footer = () => {
                     </p>
                 </div>
             </div>
+            <div className={styles['footer-3']}>
+                <h3>Asosiy havolalar</h3>
+                <div className={styles['asosiy-havolalar']}>
+                    <div className={styles['asosiy']}>
+                        <img src="/assets/img/asosiy/variant-1.svg" alt="" />
+                        <a href="">Loyihalar</a>
+                    </div>
+                    <div className={styles['asosiy']}>
+                        <img src="/assets/img/asosiy/variant-1.svg" alt="" />
+                        <a href="">Ko'rsatmalar</a>
+                    </div>
+                    <div className={styles['asosiy']}>
+                        <img src="/assets/img/asosiy/variant-1.svg" alt="" />
+                        <a href="">Reyester haqida</a>
+                    </div>
+                    <div className={styles['asosiy']}>
+                        <img src="/assets/img/asosiy/variant-1.svg" alt="" />
+                        <a href="">Qayta aloqa</a>
+                    </div>
+                </div>
+            </div>
+            <div className={styles['footer-4']}>
+                <h3>Asosiy havolalar</h3>
+                <div className={styles['asosiy-havolalar']}>
+                    <div className={styles['asosiy']}>
+                        <img src="/assets/img/asosiy/variant-1.svg" alt="" />
+                        <a href="digital.uz">digital.uz</a>
+                    </div>
+                    <div className={styles['asosiy']}>
+                        <img src="/assets/img/asosiy/variant-1.svg" alt="" />
+                        <a href="e-gov.uz">e-gov.uz</a>
+                    </div>
+                    <div className={styles['asosiy']}>
+                        <img src="/assets/img/asosiy/variant-1.svg" alt="" />
+                        <a href="lex.uz">lex</a>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
