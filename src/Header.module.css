@@ -20,6 +20,10 @@
   margin-top: 10px;
 }
 
+.link:hover {
+  cursor: pointer;
+}
+
 .reestrIcon {
   display: flex;
   flex-direction: column;
@@ -84,6 +88,10 @@
   margin-left: 50px;
   line-height: 15px;
   text-transform: uppercase;
+}
+
+.listItem1:hover {
+  cursor: pointer;
 }
 
 .oz {

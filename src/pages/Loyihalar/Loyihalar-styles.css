@@ -1,0 +1,41 @@
+.Loyihalar {
+    width: 1696px;
+    height: 1843.3px;
+    max-width: 1696px;
+}
+
+.loyihalar {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.loyihalar a,
+.loyihalar a p {
+    text-decoration: none;
+}
+
+.loyihalar p {
+    color: #121212;
+    font-family: Inter, sans-serif;
+    font-size:  14px;
+    font-style: normal;
+    font-weight:  400;
+    line-height:  24px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
+
+.loyihalar a .BackAsosiy {
+    color: royalblue;
+    text-decoration: none;
+}
+
+.loyihalar Link p {
+    text-decoration: none;
+}
+
+.loyihalar p:hover {
+    cursor: pointer;
+}

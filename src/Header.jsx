@@ -1,5 +1,6 @@
 import { useCallback } from 'react'
 import styles from './Header.module.css'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     const onLinkContainerClick = useCallback(() => {
@@ -7,7 +8,7 @@ const Header = () => {
     }, [])
 
     return (
-        <div className={styles.header}>
+        <div className={styles.heade}>
             <div className={styles.link} onClick={onLinkContainerClick}>
                 <img
                     className={styles.reestrIcon}
@@ -26,13 +27,9 @@ const Header = () => {
             </div>
             <div className={styles.list}>
                 <div className={styles.itemLink}>
-                    <a
-                        className={styles.loyihalar}
-                        href="https://reestr.uz/projects"
-                        target="_blank"
-                    >
+                    <Link to="/loyihalar" className={styles.loyihalar}>
                         Loyihalar
-                    </a>
+                    </Link>
                 </div>
                 <div className={styles.itemLink}>
                     <a

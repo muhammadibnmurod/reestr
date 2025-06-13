@@ -3,14 +3,22 @@ import Header from './Header'
 import Body from './Body'
 import Footer from './Footer'
 import './global.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import HomePage from './pages/Home/HomePage.jsx'
+import Loyihalar from './pages/Loyihalar/Loyihalar.jsx'
 
 const App = () => {
     return (
-        <div style={{ background: '#F2F7FB' }}>
-            <Header />
-            <Body />
-            <Footer />
-        </div>
+        <BrowserRouter>
+            <div style={{ background: '#F2F7FB' }}>
+                <Header />
+                <Routes>
+                    <Route path="/" element={<Body />} />
+                    <Route path="/loyihalar" element={<Loyihalar />} />
+                </Routes>
+                <Footer />
+            </div>
+        </BrowserRouter>
     )
 }
 
