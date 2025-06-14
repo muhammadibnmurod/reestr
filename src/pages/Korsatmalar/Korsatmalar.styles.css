@@ -1,0 +1,33 @@
+.Korsatmalar {
+    width: 1905px;
+}
+
+.korsatmalar-you {
+    width: 1920px;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.korsatmalar-you h2 {
+    font-size: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.25;
+    letter-spacing: 0;
+    margin: 50px auto 25px;
+    text-align: center;
+    max-width: 1000px;
+}
+
+.korsatmalar-you iframe {
+    width: 1000px;
+    height: 550px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}

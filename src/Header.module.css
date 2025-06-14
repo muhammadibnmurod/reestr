@@ -104,6 +104,11 @@
   color: #222;
 }
 
+.header a,
+.header a p {
+  text-decoration: none;
+}
+
 .background {
   display: flex;
   padding: 0px 15px;

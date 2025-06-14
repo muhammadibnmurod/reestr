@@ -1,15 +1,12 @@
 import { useCallback } from 'react'
 import styles from './Header.module.css'
 import { Link } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 
 const Header = () => {
-    const onLinkContainerClick = useCallback(() => {
-        window.open('https://reestr.uz/')
-    }, [])
-
     return (
-        <div className={styles.heade}>
-            <div className={styles.link} onClick={onLinkContainerClick}>
+        <div className={styles.header}>
+            <Link to="/" className={styles.link}>
                 <img
                     className={styles.reestrIcon}
                     alt="Logo"
@@ -24,7 +21,7 @@ const Header = () => {
                         </h2>
                     </div>
                 </div>
-            </div>
+            </Link>
             <div className={styles.list}>
                 <div className={styles.itemLink}>
                     <Link to="/loyihalar" className={styles.loyihalar}>
@@ -32,22 +29,14 @@ const Header = () => {
                     </Link>
                 </div>
                 <div className={styles.itemLink}>
-                    <a
-                        className={styles.loyihalar}
-                        href="https://reestr.uz/instructions"
-                        target="_blank"
-                    >
+                    <Link to="/korsatmalar" className={styles.loyihalar}>
                         Ko'rsatmalar
-                    </a>
+                    </Link>
                 </div>
                 <div className={styles.itemLink}>
-                    <a
-                        className={styles.loyihalar}
-                        href="https://reestr.uz/contacts"
-                        target="_blank"
-                    >
+                    <Link to="/qaytaaloqa" className={styles.loyihalar}>
                         Qayta aloqa
-                    </a>
+                    </Link>
                 </div>
             </div>
             <div className={styles.listItem}>
