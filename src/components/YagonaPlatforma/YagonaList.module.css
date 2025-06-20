@@ -1,0 +1,9 @@
+.project-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.project-grid > div {
+    flex: 0 1 calc(50% - 10px); /* Har biri 50%, oraliqni hisobga oladi */
+}

@@ -372,6 +372,7 @@ yangi-loyihalar a {
   line-height: normal;
   outline: none;
   transition: all 0.1s ease-in-out;
+  text-decoration: none;
 }
 
 .barcha-loyhalar:hover {

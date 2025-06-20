@@ -135,6 +135,23 @@
   font-weight: bold;
 }
 
+.languageWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown {
+  position: absolute;
+  border: 1px solid #ccc;
+  z-index: 100;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  min-width: 120px;
+  color: #FFF;
+  background-color: #5B21B6;
+}
+
+
 
 
 

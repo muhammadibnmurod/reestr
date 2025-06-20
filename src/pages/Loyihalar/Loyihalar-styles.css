@@ -4,6 +4,7 @@
     width: 1905px;
     height: 1843.3px;
     max-width: 1696px;
+    justify-content: center;
 }
 
 .loyihalar {
@@ -55,6 +56,7 @@
     margin-top: 30px;
     border-radius: 30px;
     gap: 40px;
+    margin-bottom: 50px;
 }
 
 .main-text1 {
@@ -168,4 +170,12 @@
     font-weight: 400;
     line-height: normal;
     opacity: 0.42;
+}
+
+.loyihalar-pastki {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
 }

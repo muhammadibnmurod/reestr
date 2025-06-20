@@ -1,9 +1,12 @@
-import { useCallback } from 'react'
+import { useState, useCallback } from 'react'
 import styles from './Header.module.css'
 import { Link } from 'react-router-dom'
-import { useLocation } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import LanguageSelector from './pages/Language_component/language-component.jsx'
 
 const Header = () => {
+    const { t } = useTranslation()
+    const [showLanguages, setShowLanguages] = useState(false)
     return (
         <div className={styles.header}>
             <Link to="/" className={styles.link}>
@@ -15,9 +18,7 @@ const Header = () => {
                 <div className={styles.heading2}>
                     <div className={styles.raqamliHukumatningAxborotContainer}>
                         <h2 className={styles.raqamliHukumatningAxborot}>
-                            Raqamli hukumatning axborot tizimlari va
-                            <br />
-                            yagona reyestori
+                            {t('THA')}
                         </h2>
                     </div>
                 </div>
@@ -25,31 +26,44 @@ const Header = () => {
             <div className={styles.list}>
                 <div className={styles.itemLink}>
                     <Link to="/loyihalar" className={styles.loyihalar}>
-                        Loyihalar
+                        {t('LH')}
                     </Link>
                 </div>
                 <div className={styles.itemLink}>
                     <Link to="/korsatmalar" className={styles.loyihalar}>
-                        Ko'rsatmalar
+                        {t('Kos')}
                     </Link>
                 </div>
                 <div className={styles.itemLink}>
                     <Link to="/qaytaaloqa" className={styles.loyihalar}>
-                        Qayta aloqa
+                        {t('QA')}
                     </Link>
                 </div>
             </div>
-            <div className={styles.listItem}>
-                <div className={styles.oz}>O'z </div>
-                <img
-                    className={styles.svgIcon}
-                    alt=""
-                    src="/assets/img/SVG.svg"
-                />
+            <div
+                className={styles.languageWrapper}
+                onMouseEnter={() => setShowLanguages(true)}
+                onMouseLeave={() => setShowLanguages(false)}
+            >
+                <div className={styles.listItem}>
+                    <div className={styles.oz}>{t('Lang')}</div>
+                    <img
+                        className={styles.svgIcon}
+                        alt=""
+                        src="/assets/img/SVG.svg"
+                    />
+                </div>
+
+                {showLanguages && (
+                    <div className={styles.dropdown}>
+                        <LanguageSelector />
+                    </div>
+                )}
             </div>
+            {/*<LanguageSelector />*/}
             <div className={styles.listItem1}>
                 <div className={styles.background}>
-                    <div className={styles.oz1}>Shaxsiy sahifa</div>
+                    <div className={styles.oz1}>{t('Perpage')}</div>
                     <img
                         className={styles.svgIcon1}
                         alt=""

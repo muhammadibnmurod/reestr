@@ -2,6 +2,7 @@ import React from 'react'
 import { scryRenderedComponentsWithType } from 'react-dom/test-utils'
 import { Link } from 'react-router-dom'
 import './Loyihalar-styles.css'
+import YagonaList from '../../components/YagonaPlatforma/YagonaList.jsx'
 
 function Loyihalar() {
     return (
@@ -28,6 +29,9 @@ function Loyihalar() {
                     </button>
                     <a>Izlash</a>
                 </div>
+            </div>
+            <div className="loyihalar-pastki">
+                <YagonaList />
             </div>
         </div>
     )
