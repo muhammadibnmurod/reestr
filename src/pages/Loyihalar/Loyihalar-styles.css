@@ -2,7 +2,6 @@
 
 .Loyihalar {
     width: 1905px;
-    height: 1843.3px;
     max-width: 1696px;
     justify-content: center;
 }
@@ -176,6 +175,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 1905px;
     margin-top: 50px;
 }

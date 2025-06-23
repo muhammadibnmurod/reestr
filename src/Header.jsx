@@ -1,14 +1,20 @@
-import { useState, useCallback } from 'react'
+import { useState } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import styles from './Header.module.css'
-import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import LanguageSelector from './pages/Language_component/language-component.jsx'
 
 const Header = () => {
     const { t } = useTranslation()
+    const location = useLocation()
     const [showLanguages, setShowLanguages] = useState(false)
+
+    const isLoyihalarPage = location.pathname === '/loyihalar'
+
     return (
-        <div className={styles.header}>
+        <div
+            className={`${styles.header} ${isLoyihalarPage ? styles.headerLoyiha : ''}`}
+        >
             <Link to="/" className={styles.link}>
                 <img
                     className={styles.reestrIcon}
@@ -60,7 +66,6 @@ const Header = () => {
                     </div>
                 )}
             </div>
-            {/*<LanguageSelector />*/}
             <div className={styles.listItem1}>
                 <div className={styles.background}>
                     <div className={styles.oz1}>{t('Perpage')}</div>

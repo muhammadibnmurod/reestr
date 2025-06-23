@@ -4,7 +4,7 @@
 
 
 .header {
-  height: 70px;
+  height: 100px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -150,6 +150,13 @@
   color: #FFF;
   background-color: #5B21B6;
 }
+
+.headerLoyiha {
+  background-color: #5B21B6;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
 
 
 
