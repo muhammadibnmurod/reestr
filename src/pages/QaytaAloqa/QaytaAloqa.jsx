@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import img from '../../../assets/img/image.png'
 import './QaytaAloqa.style.css'
 import { YMaps, Map, Placemark } from '@pbe/react-yandex-maps'
 
@@ -95,7 +96,10 @@ function QaytaAloqa() {
                             />
                         </div>
                     </div>
-                    <button>Yuborish</button>
+                    <div className='form__submit'>
+                        <button>Yuborish</button>
+                        <img src={img} alt={img} />
+                    </div>
                 </div>
             </div>
 

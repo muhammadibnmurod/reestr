@@ -32,6 +32,24 @@ i18n.use(LanguageDetector)
                     long3: 'Stages and phases of creating an information system. The requirements defined by this standard are mandatory for all state and economic management bodies, as well as local government authorities when creating information systems.',
                     'Маълумотлар базаси': 'Database',
                     long4: 'Requirements for the integration and interaction of information systems used by government bodies within the framework of forming a national information system.',
+                    YSP: 'Unified Sports Platform',
+                    YSP_description:
+                        "Aimed at promoting mass engagement of the population and youth in sports, and ensuring transparency in the sector by developing official websites of the Ministry of Sports, regional and Tashkent city sports departments, and sports educational institutions within a single sports platform based on the 'one-stop-shop' principle.",
+                    YSP_organization:
+                        'Ministry of Youth Policy and Sports of the Republic of Uzbekistan',
+
+                    MSL: 'Neighborhood Sports Project',
+                    MSL_description:
+                        'Development of sports clubs in local communities (mahallas)...',
+                    MSL_organization: 'Tashkent City Sports Department',
+                    Barchaloyihalar: 'All projects',
+                    RHAT: 'Unified Registry of Information Systems and Resources of Digital Government',
+                    SHL: 'The website was developed by the Digital Government Project Management Center',
+                    SMH: 'When using materials from the site, full or partial attribution to the site must be provided',
+                    AMR: 'Contact Information',
+                    Devonxona: 'Office',
+                    TQB: 'Technical Support',
+                    RH: 'About the Registry',
                 },
             },
             ru: {
@@ -58,6 +76,24 @@ i18n.use(LanguageDetector)
                     long3: 'Этапы и стадии создания информационной системы. Требования, определённые этим стандартом, являются обязательными для всех государственных и хозяйственных органов управления, а также органов местной власти при создании информационных систем.',
                     'Маълумотлар базаси': 'База данных',
                     long4: 'Требования к интеграции и взаимодействию информационных систем, используемых государственными органами в рамках формирования национальной информационной системы.',
+                    YSP: 'Единая спортивная платформа',
+                    YSP_description:
+                        'Создание официальных веб-сайтов Министерства спорта, спортивных управлений регионов и города Ташкента, а также спортивно-образовательных учреждений на единой спортивной платформе по принципу «единого окна» с целью широкого привлечения населения и молодежи к спорту, обеспечения открытости и прозрачности в отрасли.',
+                    YSP_organization:
+                        'Министерство по делам молодежи и спорта Республики Узбекистан',
+
+                    MSL: 'Проект «Спорт в махалле»',
+                    MSL_description:
+                        'Развитие спортивных кружков в махаллях...',
+                    MSL_organization: 'Спортивное управление города Ташкента',
+                    Barchaloyihalar: 'Все проекты',
+                    RHAT: 'Единый реестр информационных систем и ресурсов цифрового правительства',
+                    SHL: 'Сайт разработан Центром управления проектами цифрового правительства',
+                    SMH: 'При использовании материалов сайта необходимо полностью или частично указывать на источник',
+                    AMR: 'Контактная информация',
+                    Devonxona: 'Канцелярия',
+                    TQB: 'Техническая поддержка',
+                    RH: 'О реестре',
                 },
             },
             uz: {
@@ -83,6 +119,23 @@ i18n.use(LanguageDetector)
                     long3: 'Ахборот тизимини яратиш босқичлари ва этаплари. Ушбу стандарт билан белгиланадиган талаблар барча давлат ва хўжалик бошқаруви органлари, маҳаллий давлат ҳокимияти органлари томонидан ахборот тизимларини яратишда қўллаш учун мажбурий.',
                     'Маълумотлар базаси': 'Маълумотлар базаси',
                     long4: 'Миллий ахборот тизимини шакллантириш доирасида давлат органлари томонидан фойдаланиладиган ахборот тизимлари интеграциясига ва ўзаро фаолиятига қўйиладиган талаблар.',
+                    YSP: 'Yagona sport platformasi',
+                    YSP_description:
+                        'Sport vazirligi, viloyatlar va Toshkent shahar sport boshqarmalari hamda sport-ta’lim muassasalarining rasmiy veb-saytlarini, “Yagona darcha” tamoyili asosida, yagona sport platformasida yaratish orqali, aholi va yoshlarni sportga keng jalb etish hamda sohada ochiqlik va shaffoflikni ta’minlash qaratilgan.',
+                    YSP_organization:
+                        'Ўзбекистон Республикаси Ёшлар сиёсати ва спорт вазирлиги',
+                    MSL: 'Mahalla sport loyihasi',
+                    MSL_description:
+                        'Mahallalarda sport to‘garaklarini rivojlantirish...',
+                    MSL_organization: 'Toshkent shahar sport boshqarmasi',
+                    Barchaloyihalar: 'Barcha loyihalar',
+                    RHAT: 'Raqamli hukumatning axborot tizimlari va resurslari yagona reyestri',
+                    SHL: 'Sayt raqamli hukumat loyihalarini boshqarish markazi tomonidan ishlab chiqilgan',
+                    SMH: "Sayt materiallaridan foydalanilganda saytning yorliqlari to'liq yoki qisman ko'rsatilishi zarur",
+                    AMR: "Aloqa ma'lumotlari",
+                    Devonxona: 'Devonxona',
+                    TQB: "Texnik qo'llab quvvatlash",
+                    RH: 'Reyester Haqida',
                 },
             },
         },

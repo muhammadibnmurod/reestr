@@ -8,6 +8,7 @@ import HomePage from './pages/Home/HomePage.jsx'
 import Loyihalar from './pages/Loyihalar/Loyihalar.jsx'
 import Korsatmalar from './pages/Korsatmalar/Korsatmalar.jsx'
 import QaytaAloqa from './pages/QaytaAloqa/QaytaAloqa.jsx'
+import Modal from './components/Modal/Modal.jsx'
 
 const App = () => {
     return (
@@ -20,6 +21,7 @@ const App = () => {
                     <Route path="/korsatmalar" element={<Korsatmalar />} />
                     <Route path="/qaytaaloqa" element={<QaytaAloqa />} />
                 </Routes>
+                {/* <Modal /> */}
                 <Footer />
             </div>
         </BrowserRouter>

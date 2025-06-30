@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom'
 
 const Body = () => {
     const { t } = useTranslation()
-    const [showLanguages, setShowLanguages] = useState(false)
 
     const standartData = [
         {
@@ -62,7 +61,7 @@ const Body = () => {
             <h2 className={styles['yangi-h']}>{t('yangi_h')}</h2>
             <YagonaList />
             <Link to={'/loyihalar'} className={styles['barcha-loyhalar']}>
-                Barcha loyihalar
+                {t('Barchaloyihalar')}
                 <img src="/assets/img/SVG/SVG.svg" alt="Yangi-Loyihalar" />
             </Link>
         </div>

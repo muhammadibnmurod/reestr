@@ -1,183 +1,217 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-
-
 .header {
-  height: 100px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  background: #F2F7FB;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #f2f7fb;
+    padding: 0 20px;
+    flex-wrap: wrap;
 }
 
 .link {
-  display: flex;
-  display: inline-flex;
-  align-items: center;
-  box-sizing: border-box;
-  margin-left: 30px;
-  margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .link:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .reestrIcon {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .raqamliHukumatningAxborot {
-  font-family: "Noto Sans", sans-serif;
-  padding-left: 16px;
-  max-width: 400px;
-  font-size: 14px;
-  line-height: 1.286;
-  letter-spacing: .0025em;
-  font-family: Inter-Bold;
-  text-transform: uppercase;
-  color: #6A6DCD;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    padding-left: 16px;
+    max-width: 400px;
+    font-size: 14px;
+    line-height: 1.286;
+    letter-spacing: 0.0025em;
+    text-transform: uppercase;
+    color: #6a6dcd;
 }
 
-.raqamliHukumatningAxborot h2 {
-
-}
 .container {
-  display: flex;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .list {
-  gap: 50px;
-  margin-left: 540px;
-  display: inline-flex;
-  height: 96px;
-  gap: 67px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+    height: 96px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 .loyihalar {
-  color: #222;
-  font-family: "Inter-regular", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 16px;
-  text-decoration: none/* 100% */
+    color: #222;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration: none;
 }
 
-.loyihalar:hover {
-  color: #25b4a2;
-  transition: color 0.1s;
+.loyihalar:hover,
+.loyihalar:active {
+    color: #25b4a2;
+    transition: color 0.1s;
 }
 
 .listItem {
-  display: flex;
-  margin-left: 90px;
-  margin-top: 38px;
+    display: flex;
+    margin-left: 30px;
 }
 
 .listItem1 {
-  position: relative;
-  display: flex;
-  margin-top: 30px;
-  margin-left: 50px;
-  line-height: 15px;
-  text-transform: uppercase;
+    position: relative;
+    display: flex;
+    margin-left: 20px;
+    line-height: 15px;
+    text-transform: uppercase;
 }
 
 .listItem1:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .oz {
-  position: relative;
-  font-size: 15px;
-  line-height: 15px;
-  text-transform: uppercase;
-  font-family: "Inter-regular", sans-serif;
-
-  color: #222;
+    position: relative;
+    font-size: 15px;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
 }
 
 .header a,
 .header a p {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .background {
-  display: flex;
-  padding: 0px 15px;
-  justify-content: center;
-  align-items: center;
-  gap: 12.67px;
-  flex-shrink: 0;
-  align-self: stretch;
-  border-radius: 8px;
-  background:#6A6DCD;
-  padding: 10px ;
+    display: flex;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 12.67px;
+    border-radius: 8px;
+    background: #6a6dcd;
 }
 
 .background div {
-  color: #fff;
+    color: #fff;
 }
 
 .oz1 {
-  position: relative;
-  font-size: 15px;
-  line-height: 15px;
-  text-transform: uppercase;
-  color: #222;
-  font-weight: bold;
+    position: relative;
+    font-size: 15px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #222;
+    font-weight: bold;
 }
 
 .languageWrapper {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown {
-  position: absolute;
-  border: 1px solid #ccc;
-  z-index: 100;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 6px;
-  min-width: 120px;
-  color: #FFF;
-  background-color: #5B21B6;
+    position: absolute;
+    /* border: 1px solid #ccc; */
+    z-index: 100;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    min-width: 120px;
+    /* color: #fff; */
+    /* background-color: #5b21b6; */
 }
 
 .headerLoyiha {
-  background-color: #5B21B6;
-  color: white;
-  transition: background-color 0.3s ease;
+    background-color: #5b21b6;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+.headerLoyiha a {
+    color: white;
 }
 
+.headerLoyiha h2 {
+    color: white;
+}
 
+.headerLoyiha > .listItem > .oz {
+    color: white !important;
+}
 
+@media screen and (max-width: 768px) {
+    .header {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
 
+    .list {
+        margin-left: 0;
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
 
+    .listItem,
+    .listItem1 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
 
+    .link {
+        margin-left: 10px;
+    }
 
+    .raqamliHukumatningAxborot {
+        font-size: 12px;
+        max-width: 100%;
+    }
 
+    .dropdown {
+        min-width: 100px;
+    }
+}
 
+@media screen and (max-width: 576px) {
+    .header {
+        padding: 5px;
+    }
 
+    .list {
+        gap: 15px;
+    }
 
+    .loyihalar {
+        font-size: 14px;
+    }
 
+    .oz,
+    .oz1 {
+        font-size: 13px;
+        /* color: white; */
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
+    .background {
+        padding: 8px;
+    }
+}

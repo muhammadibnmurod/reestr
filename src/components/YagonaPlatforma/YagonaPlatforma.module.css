@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 .Main {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 140px;
     align-self: stretch;
-    background: #F2F7FB;
+    background: #f2f7fb;
     margin-bottom: 18px;
 }
 
 .main-background {
     position: relative;
-    background-image: url("/assets/img/background.png");
+    background-image: url('/assets/img/background.png');
     background-size: cover;
     display: flex;
     width: 1774px;
@@ -66,8 +65,11 @@
     justify-content: space-between;
     align-items: center;
     border-radius: 12px;
-    background: #FFF;
-    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.20), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    background: #fff;
+    box-shadow:
+        0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+        0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
 
 .main-background-form input {
@@ -99,13 +101,16 @@
     width: 120px;
     height: 50px;
     border-radius: 4px;
-    background: #3CBDC6;
-    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.20), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
-    color: #FFF;
+    background: #3cbdc6;
+    box-shadow:
+        0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+        0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    color: #fff;
     text-align: center;
     justify-content: center;
     text-decoration: none;
-    font-family: "Noto Sans Batak";
+    font-family: 'Noto Sans Batak';
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -136,18 +141,17 @@
     height: 293px;
     flex-shrink: 0;
     border-radius: 16px;
-    border: rgba(0, 0, 0, 0.10);
+    border: rgba(0, 0, 0, 0.1);
 }
 
 .standartlar-1 {
-    background: #FFF;
+    background: #fff;
     border-radius: 16px;
 }
 
 .page-i {
     gap: 16px;
     display: flex;
-
 }
 
 .standartlar-content h3 {
@@ -156,8 +160,8 @@
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    color: #6D28D9;
-    font-family: "Noto Sans", sans-serif;
+    color: #6d28d9;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: bold;
@@ -173,8 +177,8 @@
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    color: #6B7280;
-    font-family: "Inter", sans-serif;
+    color: #6b7280;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -189,7 +193,7 @@
     flex-direction: column;
     align-items: flex-start;
     border-radius: 8px;
-    background: #5B21B6;
+    background: #5b21b6;
 }
 
 .standartlar-description {
@@ -199,7 +203,7 @@
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    color: #6B7280;
+    color: #6b7280;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -211,20 +215,21 @@
 }
 
 .image-standartlar:hover {
-    background: #3CBDC6;
+    background: #3cbdc6;
     transition: color 0.1s;
 }
 
 .yangi-loyiha {
-    background: #FFF;
-    border: 1px solid rgba(0,0,0,.1);
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     flex: 1;
     flex-shrink: 0;
     border-radius: 16px;
-    box-shadow: 0 4px 16px rgba(123,97,255,.12);
+    box-shadow: 0 4px 16px rgba(123, 97, 255, 0.12);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 20px 30px;
 }
 
 .yangi-in {
@@ -238,26 +243,23 @@
     display: flex;
     font-weight: bold;
     justify-content: center;
-    font-family: "Noto Sans", sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     margin-top: -20px;
     font-size: 2.25rem;
     line-height: 2.5rem;
-
 }
 
 .yang-in-1 {
     display: flex;
-    width: 783px;
     padding-bottom: 10px;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 44px;
 }
 
 .yang-in-1 h3 {
     font-size: 1.25rem;
     line-height: 1.75rem;
-    font-family: "Noto Sans", sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 22px;
 }
 
@@ -267,32 +269,30 @@
     cursor: pointer;
 }
 
-.yang-in-1 p {
-    color: rgba(34, 34, 34, 0.60);
+.yang-in-1 > p {
+    color: rgba(34, 34, 34, 0.6);
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px; /* 142.857% */
     margin-top: 1px;
+    min-height: 100px;
 }
 
 .yangi-in-2 {
     display: flex;
-    gap: 124px;
     /*margin-left: 44px;*/
     /*display: flex;*/
     /*width: 93.27px;*/
     /*height: 20px;*/
     /*flex-direction: column;*/
-    justify-content: center;
-    padding-right: 112px;
+    justify-content: space-between;
 }
 
 .yangi-in-2 p {
     font-weight: bold;
-    font-family: "Noto Sans", sans-serif;
-
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .yangi-inline {
@@ -313,8 +313,8 @@
 }
 
 .highlite {
-    color: #6B7280;
-    font-family: "Noto Sans", sans-serif;
+    color: #6b7280;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .zero {
@@ -322,21 +322,20 @@
 }
 
 .qovus {
-    color: #6B7280;
+    color: #6b7280;
 }
 
 .Yangi-pastki {
     color: #222;
-    font-family: "Noto Sans", sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: bold;
     line-height: 20px; /* 142.857% */
-    padding: 50px;
 }
 
 .Yangi-pastki:hover {
-    color: #3CBDC6;
+    color: #3cbdc6;
 }
 
 .yangi-bosh {
@@ -344,7 +343,6 @@
     margin-left: 70px;
     gap: 25px;
     flex-wrap: wrap;
-
 }
 
 yangi-loyihalar a {
@@ -352,7 +350,7 @@ yangi-loyihalar a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Noto Sans";
+    font-family: 'Noto Sans';
     font-size: 16px;
     font-style: normal;
     line-height: 28px;
@@ -367,10 +365,10 @@ yangi-loyihalar a {
     align-items: center;
     gap: 0px;
     border-radius: 8px;
-    background: #F2F7FB;
-    color:rgb(55 65 81);
+    background: #f2f7fb;
+    color: rgb(55 65 81);
     text-align: center;
-    font-family: "Noto Sans", sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 13.3px;
     font-style: normal;
     font-weight: bold;
@@ -380,43 +378,10 @@ yangi-loyihalar a {
 }
 
 .barcha-loyhalar:hover {
-    background: #FFFFFF;
+    background: #ffffff;
     color: black;
 }
 
 a:hover {
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
